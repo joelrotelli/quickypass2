@@ -14,5 +14,6 @@ catch(Exception $e)
 
 if ($payload->ref === 'refs/heads/develop')
 {
-  exec('./deploy.sh');
+  //exec('./deploy.sh');
+  exec('cd cd /home/drupalskr/public_html/quickypass && git pull origin develop');
 }

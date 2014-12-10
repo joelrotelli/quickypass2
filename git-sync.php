@@ -1,1 +1,3 @@
-<?php `git pull origin develop`;
+#!/bin/sh
+cd /home/drupalskr/public_html/quickypass
+git pull origin develop
